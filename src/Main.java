@@ -33,9 +33,10 @@ public class Main {
                     first *= 10;
                     last *= 10;
                 }
-                //e.g: from 10 to 11 is 1 step; then from 100 to 110 is 10 steps, overall 11 steps.
+                //e.g: from 10 to 11 is 1 step; then from 100 to 110 is 10 steps, overall 11 steps, so when steps is less than k and wehave to go right
+                // we have to k =+ step
 
-                
+
                 // we have to go to the right
                 if (step <= k) {
                     ++cur;
